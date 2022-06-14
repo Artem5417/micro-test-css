@@ -11,11 +11,55 @@
 
 <body>
     <div class="main">
+        <div class="bar">
+            <div class="bar-item">
+                <img class="imgitems" src="Events.png">
+            </div>
+            <div class="bar-item">
+                Events
+            </div>
+            <div class="bar-item">
+                <img class="imgitems" src="Blog.png">
+            </div>
+            <div class="bar-item">
+                Blog
+            </div>
+            <div class="bar-item">
+                <img class="imgitems" src="Videos.png">
+            </div>
+            <div class="bar-item">
+                Videos
+            </div>
+        </div>
         <img class="pic1" src="p3.jpeg">
         <img class="pic2" src="p4.svg">
         <div class="menu">
             <img class="pic3" src="p1.png">
             <img class="pic4" src="p0.png">
+            <img class="pic5" src="p2.png">
+            <div class="menu-right">
+                <div class="menu-items">
+                    <div>Solutions</div>
+                </div>
+                <div class="menu-items">
+                    <div>Markets</div>
+                </div>
+                <div class="menu-items">
+                    <div>Products</div>
+                </div>
+                <div class="menu-items">
+                    <div>Bussines Ecosystem</div>
+                </div>
+                <div class="menu-items">
+                    <div>About us</div>
+                </div>
+                <div class="menu-items">
+                    <div>Contacts</div>
+                </div>
+                <div class="button">
+                    <div>Request a demo</div>
+                </div>
+            </div>
         </div>
         <svg class="pichex" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             x="0px" y="0px" viewBox="0 0 141.7 141.7" style="enable-background:new 0 0 141.7 141.7;"
@@ -25,20 +69,48 @@
             </path>
         </svg>
     </div>
-    <div class="solution">
-        solutions
-    </div>
-    <div class="designing">
-        Our solution for designing smart things
-    </div>
-    <div class="greyline">
+    <div class="text1">
+        <div class="solution">
+            solutions
+        </div>
+        <div class="designing">
+            Our solution for designing smart things
+        </div>
+        <div class="greyline">
 
+        </div>
+    </div>
+    <div class="smart1">
+        <svg class="Sensor" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 141.7 141.7" style="enable-background:new 0 0 141.7 141.7;"
+            xml:space="preserve">
+            <path d="M46.4,134.2h47.8c7.5,0,14.4-4,18.1-10.5l23.9-41.4c3.7-6.5,3.7-14.5,0-21L112.3,20c-3.7-6.5-10.7-10.5-18.1-10.5H46.4
+            c-7.5,0-14.4,4-18.1,10.5L4.3,61.4c-3.7,6.5-3.7,14.5,0,21l23.9,41.4C31.9,130.2,38.9,134.2,46.4,134.2z">
+            </path>
+        </svg>
+        <img class="CloudSensor" src="Cloud.png">
+    </div>
+    <div class="Text2">
+        Sensor to the Cloud
+    </div>
+    <div class="smart2">
+        <svg class="Design" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 141.7 141.7" style="enable-background:new 0 0 141.7 141.7;"
+            xml:space="preserve">
+            <path d="M46.4,134.2h47.8c7.5,0,14.4-4,18.1-10.5l23.9-41.4c3.7-6.5,3.7-14.5,0-21L112.3,20c-3.7-6.5-10.7-10.5-18.1-10.5H46.4
+            c-7.5,0-14.4,4-18.1,10.5L4.3,61.4c-3.7,6.5-3.7,14.5,0,21l23.9,41.4C31.9,130.2,38.9,134.2,46.4,134.2z">
+            </path>
+        </svg>
+        <img class="Value" src="Design.png">
+    </div>
+    <div class="text3">
+        Design to Value
     </div>
 </body>
 <style>
     .pic1 {
         position: relative;
-        width: 100vw;
+        width: 100%;
     }
 
     body {
@@ -48,7 +120,7 @@
     .pic2 {
         position: absolute;
         bottom: 4px;
-        left: 0px;
+        left: 2px;
     }
 
     .main {
@@ -86,7 +158,11 @@
         background-color: lightgrey;
     }
 
-    .pic3 {}
+    .pic3 {
+        position: absolute;
+        margin-left: 105px;
+        margin-top: 15px;
+    }
 
     .pic4 {}
 
@@ -94,6 +170,129 @@
         display: flex;
         position: fixed;
         top: 0;
+    }
+
+    .pic5 {
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 150px;
+    }
+
+    .menu-right {
+        display: flex;
+    }
+
+    .menu-items {
+        font-family: 'Source Sans Pro', sans-serif;
+        display: flex;
+        margin-top: 26px;
+        margin-left: 35px;
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .button {
+        background: #f76241ff;
+        border-radius: 26px;
+        display: flex;
+        align-items: center;
+        margin-left: 120px;
+        width: 115px;
+        margin-top: 7px;
+        height: 52px;
+        padding-left: 20px;
+        font-size: 13px;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Source Sans Pro', sans-serif;
+        cursor: pointer;
+    }
+
+    .text1 {
+        margin-left: 140px;
+    }
+
+    .bar-item {
+        display: flex;
+        color: white;
+        margin-top: 11px;
+        margin-left: 14px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+    .bar {
+        position: fixed;
+        z-index: 10;
+        right: 0px;
+        top: 100px;
+        background-color: #262a2dff;
+        width: 66px;
+        height: 188px;
+        border-radius: 9px;
+    }
+
+    .imgitems {
+        margin-left: 6px;
+    }
+
+    .Sensor {
+        position: absolute;
+        margin-top: 90px;
+        margin-left: 635px;
+        height: 170px;
+        fill: white;
+        stroke: #ca9b90ff;
+        stroke-width: 1px;
+    }
+
+    .CloudSensor {
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 690px;
+    }
+
+    .Text2 {
+        margin-left: 860px;
+        font-family: 'Source Sans Pro';
+        margin-top: 150px;
+        font-size: 24px;
+        color: #606061ff;
+    }
+
+    .Design {
+        position: absolute;
+        height: 170px;
+        fill: white;
+        stroke: #ca9b90ff;
+        stroke-width: 1px;
+        margin-left: 490px;
+
+    }
+
+    .Value {
+        position: absolute;
+        margin-left: 550px;
+        margin-top: 50px;
+    }
+
+    .smart1 {
+        margin-left: 25px;
+    }
+
+    .smart {
+        margin-top: 25px;
+    }
+
+    .text3 {
+        margin-top: 70px;
+        font-size: 24px;
+        margin-left: 310px;
+        color: #606061ff;
+        font-family: 'Source Sans Pro';
     }
 </style>
 
