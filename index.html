@@ -164,6 +164,46 @@
             </div>
         </div>
     </div>
+    <div class="clip">
+        <div class="clip-left">
+            <div class="cliptext1">
+                100 Million
+            </div>
+            <div class="text2">
+                Number of sold IoT devices Powered by MicroEJ
+            </div>
+            <div class="cliptext1">
+                35M $
+            </div>
+            <div class="text2">
+                Research & Development Investment
+            </div>
+            <div class="cliptext1">
+                25
+            </div>
+            <div class="text2">
+                Partners
+            </div>
+        </div>
+        <div class="clip-right">
+            <div class="small-button">
+                About Us
+            </div>
+            <div class="smartproducts">
+                Let's make smart products!
+            </div>
+            <div class="blackline">
+
+            </div>
+            <div class="text3">
+                As Android turned phones into smart phones, MicroEJ turns any electronic products or 'things' into smart
+                things. With tens of millions of devices Powered by MicroEJ already deployed, and offices in Europe,
+                United States and Asia, MicroEJ provides you wich best in class software solutions to let you design
+                electronic products for wearables, appliances, home, factory, health, telecoms, industrial, energy,
+                printers, lighting, IoT and more.
+            </div>
+        </div>
+    </div>
 </body>
 <style>
     .pic1 {
@@ -173,6 +213,7 @@
 
     body {
         margin: 0;
+        font-family: 'Source Sans Pro', sans-serif;
     }
 
     .pic2 {
@@ -471,6 +512,72 @@
     .smartmaincontainer {
         display: flex;
         justify-content: center;
+    }
+
+    .clip {
+        display: flex;
+        background-color: #eff0f2ff;
+        width: auto;
+        height: 940px;
+        margin-top: 50px;
+        clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .clip-left {
+        margin-top: 250px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .cliptext1 {
+        width: 423px;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 220px;
+        color: #ef6549ff;
+        font-size: 80px;
+        justify-content: flex-end;
+    }
+
+    .text2 {
+        color: #494a4cff;
+        margin-left: 220px;
+        font-size: 18px;
+    }
+
+    .clip-right {
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .small-button {
+        text-transform: uppercase;
+        font-size: 13px;
+        margin-left: 110px;
+        margin-top: 190px;
+        color: #ffb3a0ff;
+    }
+
+    .smartproducts {
+        margin-left: 105px;
+        font-size: 36px
+    }
+
+    .blackline {
+        border-bottom: solid #4a4b4dff;
+        border-width: 1px 1px;
+        margin-left: 110px;
+        margin-top: 10px;
+        width: 40px;
+    }
+
+    .text3 {
+        margin-left: 110px;
+        margin-top: 20px;
+        font-size: 18px;
     }
 </style>
 
