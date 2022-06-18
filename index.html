@@ -207,6 +207,24 @@
             </div>
         </div>
     </div>
+    <div class="clip2">
+        <img class="clip2img" src="p12.jpeg">
+        <div class="clip2-left">
+            <img class="clip2-pic" src="p5.png">
+        </div>
+        <div class="clip2-right">
+            <img class="clip2-rightpic" src="p6.png">
+            <div class="rightbutton">
+                Learn more
+            </div>
+            <div class="righttext3">
+                Future roof solution for new markets
+            </div>
+            <div class="righttext2">
+                Smart home
+            </div>
+        </div>
+    </div>
 </body>
 <style>
     .pic1 {
@@ -596,6 +614,33 @@
 
     .yellowtext {
         margin-top: 12px;
+    }
+
+    .clip {
+        display: flex;
+    }
+
+    .clip2img {
+        position: absolute;
+        width: 100%;
+        clip-path: polygon(0 45%, 100% 0%, 100% 100%, 0 100%);
+    }
+
+    .clip2-pic {
+        display: flex;
+        position: absolute;
+        height: 550px;
+        margin-top: 120px;
+        margin-left: 30px;
+    }
+
+    .clip2-right {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .clip2-rightpic {
+        position: absolute;
     }
 </style>
 
