@@ -14,19 +14,19 @@
     <div class="main">
         <div class="bar">
             <div class="bar-item">
-                <i class="fa-solid fa-calendar-days"></i>
+                <i class="fa-solid fa-calendar-days fa-2xl"></i>
             </div>
             <div class="bar-item">
                 Events
             </div>
             <div class="bar-item">
-                <i class="fa-regular fa-comment"></i>
+                <i class="fa-regular fa-comment fa-2xl"></i>
             </div>
             <div class="bar-item">
                 Blog
             </div>
             <div class="bar-item">
-                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-regular fa-circle-play fa-2xl"></i>
             </div>
             <div class="bar-item">
                 Videos
@@ -212,17 +212,55 @@
         <img class="clip2img" src="p12.jpeg">
         <div class="clip2-left">
             <img class="clip2-pic" src="p5.png">
+            <div class="smarthome">
+                <i class="fa-solid fa-house-chimney"></i>
+                <div class="hometext">
+                    Smart home
+                </div>
+            </div>
+            <div class="HomeAppiliances">
+                <i class="fa-solid fa-blender"></i>
+                <div class="HomeAtext">
+                    Home Appliances
+                </div>
+            </div>
+            <div class="Wearables">
+                <i class="fa-solid fa-mobile-button"></i>
+                <div class="Wearablestext">
+                    Wearables
+                </div>
+            </div>
+            <div class="Energy">
+                <i class="fa-brands fa-reddit"></i>
+                <div class="Utilities">
+                    Energy & Utilities
+                </div>
+            </div>
+            <div class="Industry">
+                <i class="fa-solid fa-bed"></i>
+                <div class="Industrytext">
+                    Industry 4.0
+                </div>
+            </div>
+            <div class="Medical">
+                <i class="fa-solid fa-heart-pulse"></i>
+                <div class="Medicaltext">
+                    Medical Devices
+                </div>
+            </div>
         </div>
         <div class="clip2-right">
             <img class="clip2-rightpic" src="p6.png">
-            <div class="rightbutton">
-                Learn more
-            </div>
             <div class="righttext3">
+                Smart home
+            </div>
+            <div class="righttext4">
                 Future roof solution for new markets
             </div>
-            <div class="righttext2">
-                Smart home
+            <div class="quadrat">
+                <div class="rightbutton">
+                    Learn more
+                </div>
             </div>
         </div>
     </div>
@@ -617,8 +655,9 @@
         margin-top: 12px;
     }
 
-    .clip {
+    .clip2 {
         display: flex;
+        background-color: #eff0f2ff;
     }
 
     .clip2img {
@@ -637,21 +676,157 @@
     }
 
     .clip2-right {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .clip2-rightpic {
+        align-items: center;
         position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin-left: 850px;
+        margin-top: 140px;
     }
 
-    .clip2 {
-        display: flex;
-        background-color: #eff0f2ff;
-    }
+    .clip2-rightpic {}
 
     .clip2-left {
         display: flex;
+    }
+
+    .fa-solid {
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+
+    .fa-regular {
+        margin-left: 5px;
+        margin-top: 25px;
+    }
+
+    .righttext3 {
+        margin-top: 20px;
+        color: #de6b54ff;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .righttext4 {
+        margin-top: 20px;
+        color: white;
+    }
+
+    .rightbutton {
+
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: white;
+        margin-top: 20px;
+        border-radius: 30px;
+        border: solid 1px;
+        height: 40px;
+    }
+
+    .quadrat {
+        background-color: rgba(0, 0, 0, 0);
+        height: 40px;
+        width: 120px;
+    }
+
+    .fa-house-chimney {
+        font-size: 51px;
+    }
+
+    .smarthome {
+        position: absolute;
+        margin-top: 220px;
+        margin-left: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hometext {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .fa-blender {
+        font-size: 51px;
+    }
+
+    .HomeAppiliances {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin-top: 221px;
+        margin-left: 400px;
+    }
+
+    .HomeAtext {
+        margin-top: 20px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .Wearables {
+        position: absolute;
+        margin-top: 380px;
+        margin-left: 200px;
+    }
+
+    .Wearablestext {
+        font-size: 21px;
+        margin-top: 15px;
+        color: white;
+    }
+
+    .fa-mobile-button {
+        font-size: 51px;
+    }
+
+    .Energy {
+        position: absolute;
+        margin-top: 410px;
+        margin-left: 410px;
+    }
+
+    .fa-reddit {
+        font-size: 41px;
+    }
+
+    .Utilities {
+        margin-top: 15px;
+        font-size: 19px;
+        color: white;
+    }
+
+    .fa-bed {
+        font-size: 51px;
+    }
+
+    .Industry {
+        position: absolute;
+        margin-top: 520px;
+        margin-left: 195px;
+    }
+
+    .Industrytext {
+        font-size: 19px;
+        margin-top: 15px;
+        color: white;
+    }
+
+    .Medical {
+        position: absolute;
+        margin-top: 520px;
+        margin-left: 390px;
+    }
+
+    .fa-heart-pulse {
+        font-size: 51px;
+    }
+
+    .Medicaltext {
+        font-size: 19px;
+        margin-top: 15px;
+        color: white;
     }
 </style>
 
