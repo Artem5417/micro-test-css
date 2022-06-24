@@ -302,10 +302,45 @@
             </div>
         </div>
         <div class="customer-right">
-            <i class="fa-solid fa-chevron-left"></i>
-            <i class="fa-solid fa-chevron-right"></i>
+            <div class="arrows">
+                <i class="fa-solid fa-chevron-left"></i>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
             <div class="customer-right-text1">
                 success stories
+            </div>
+            <div class="stories">
+                Customer <br /> Stories
+            </div>
+            <div class="grey-line">
+
+            </div>
+            <div class="customer-text2">
+                Discover how our customers succesfully <br />use MicroEJ platforms for their smart <br />electronics and
+                thrive
+                their business.
+            </div>
+            <div class="customer-button">
+                All success stories
+            </div>
+        </div>
+    </div>
+    <div class="news-main">
+        <div class="news-left">
+            <div class="agenda">
+                Agenda
+            </div>
+            <div class="Events">
+                Next Events
+            </div>
+            <div class="black-line">
+
+            </div>
+            <div class="Event1">
+                Embedded World 2022
+            </div>
+            <div class="date1">
+                from june 21th-23th,2022
             </div>
         </div>
     </div>
@@ -792,6 +827,7 @@
     }
 
     .fa-blender {
+        color: white;
         font-size: 51px;
         margin-left: 40px;
     }
@@ -816,6 +852,7 @@
     }
 
     .fa-mobile-button {
+        color: white;
         font-size: 51px;
         margin-left: 25px;
     }
@@ -825,6 +862,7 @@
     }
 
     .fa-reddit {
+        color: white;
         font-size: 41px;
         margin-left: 35px;
     }
@@ -836,6 +874,7 @@
     }
 
     .fa-bed {
+        color: white;
         font-size: 51px;
         margin-left: 15px;
     }
@@ -851,6 +890,7 @@
     .Medical {}
 
     .fa-heart-pulse {
+        color: white;
         font-size: 51px;
         margin-left: 15px;
     }
@@ -891,7 +931,7 @@
     .customerclip {
         display: flex;
         background-color: #eff0f2ff;
-        clip-path: polygon(0% 0%, 100% 5%, 100% 75%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 5%, 100% 100%, 0% 80%);
         width: auto;
         height: 500px;
         padding: 30px;
@@ -971,20 +1011,100 @@
         font-size: 26px;
     }
 
+    .customer-right {
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
     .fa-chevron-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 40px;
         margin-left: 20px;
     }
 
     .fa-chevron-left {
-        margin-left: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 40px;
     }
 
     .customer-right-text1 {
         text-transform: uppercase;
         margin-top: 40px;
-        margin-left: 30px;
         font-size: 11px;
         color: #fbb7abff;
+    }
+
+    .arrows {
+        display: flex;
+    }
+
+    .stories {
+        margin-top: 10px;
+        font-size: 41px;
+    }
+
+    .grey-line {
+        margin-top: 20px;
+        border-bottom: solid grey;
+        border-width: 1px 10px;
+        width: 40px;
+    }
+
+    .customer-text2 {
+        margin-top: 9px;
+        font-size: 18px;
+    }
+
+    .customer-button {
+        font-size: 13px;
+        text-transform: uppercase;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffc945ff;
+        color: white;
+        width: 170px;
+        height: 47px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .news-main {
+        display: flex;
+    }
+
+    .news-left {
+        margin-left: 84px;
+    }
+
+    .agenda {
+        text-transform: uppercase;
+        font-size: 13px;
+        color: #e08f7eff;
+    }
+
+    .Events {
+        font-size: 36px;
+        margin-top: 15px;
+    }
+
+    .black-line {
+        border-bottom: solid #4b4b4dff;
+        width: 51px;
+        border-width: 1px 10px;
+        margin-top: 15px;
     }
 </style>
 
